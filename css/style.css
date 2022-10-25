@@ -162,3 +162,12 @@ footer p{
     background-color: #00b3ff;
     align-content: center;
 }
+.qwe{
+    display: compact;
+    text-align: center;
+    font-family: 'Vollkorn';
+    color: coral;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 22px;
+}
