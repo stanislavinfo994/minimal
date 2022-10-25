@@ -157,3 +157,8 @@ footer p{
     line-height: 22px;
     color: #FFFFFF
 }
+.text{
+    text-align: center;
+    background-color: #00b3ff;
+    align-content: center;
+}
