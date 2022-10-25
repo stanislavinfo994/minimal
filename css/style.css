@@ -157,18 +157,4 @@ footer p{
     line-height: 22px;
     color: #FFFFFF
 }
-.text{
-    text-align: center;
-    background-color: #00b3ff;
-    align-content: center;
-}
-.qwe{
-    display: compact;
-    text-align: center;
-    font-family: 'Vollkorn';
-    font-style: oblique;
-    color: coral;
-    font-weight: 400;
-    font-size: 25px;
-    line-height: 25px;
-}
+
