@@ -64,7 +64,7 @@ footer form input{
     padding-left: 31px;
     width: 100%;
     box-sizing: border-box;
-    background: rgba(255, 255, 255, 0.18);
+
     height: 57px;
     font-family: 'Vollkorn';
     font-style: italic;
@@ -108,10 +108,12 @@ footer form textarea:focus{
     outline: none;
     background-color: aqua;
 }
-footer form .d_none:first-of-type input{
-
+footer form .m_width:first-of-type input, footer form .m_width:nth-child(3) input{
+    background: rgba(255, 255, 255, 0.18);
 }
-
+footer form .m_width:nth-child(2) input{
+    background: rgba(255, 255, 255, 0.2);
+}
 footer a{
     margin: 37.05px;
 }
