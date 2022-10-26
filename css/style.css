@@ -194,3 +194,36 @@ footer p{
     margin-top: 28px;
     margin-bottom: 25px;
 }
+.main_banner_description{
+    background-color: #FEFEC9;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+.main_banner_description p{
+    font-family: 'Vollkorn',serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #47474F;
+    margin-bottom: 39px;
+}
+.main_banner_description a{
+    font-family: 'Vollkorn',serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #47474F;
+    display: inline-block;
+    padding: 13px 34px 20px;
+    border: solid 1px #47474F;
+    border-bottom: solid 2px #47474F;
+    text-decoration: none;
+}
+.brands{
+
+}
