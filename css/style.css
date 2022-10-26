@@ -159,4 +159,38 @@ footer p{
     line-height: 22px;
     color: #FFFFFF
 }
-
+.main_banner{
+    min-height: 391px;
+    background-image: url("../images/background_img.jpg");
+    background-size: cover;
+    display: flex;
+}
+.main_banner h1{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 55px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.main_banner p{
+    font-family: 'Vollkorn', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.81);
+}
+.main_banner h1:after{
+    content: "";
+    display: block;
+    width: 80px;
+    height: 2px;
+    background-color: #ffffff;
+    margin: auto;
+    margin-top: 28px;
+    margin-bottom: 25px;
+}
