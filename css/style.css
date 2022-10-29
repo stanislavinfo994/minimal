@@ -273,8 +273,14 @@ footer p{
     margin-bottom: 74px;
 }
 .brands img{
-    margin-left: 20px;
+    display: block;
+    width: 100%;
     margin-bottom: 38px;
+}
+.brands article {
+    width: 300px;
+    margin-left: 20px;
+    margin-bottom: 20px;
 }
 .recent_projects{
     display: flex;
@@ -330,7 +336,7 @@ footer p{
     display: block;
     width: 100%;
 }
-.text{
+.text {
     max-width: 300px;
     background-color: #ffffff;
     margin-left: 20px;
