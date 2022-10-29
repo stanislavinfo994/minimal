@@ -285,7 +285,6 @@ footer p{
 .recent_projects{
     display: flex;
     background-color: #F5F5F5;
-
 }
 .recent_projects h2:after {
     content: "";
