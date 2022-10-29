@@ -313,6 +313,7 @@ footer p{
     text-align: center;
     text-transform: uppercase;
     color: #333333;
+    margin-top: 19px;
 
 }
 .recent_projects p {
@@ -323,9 +324,15 @@ footer p{
     line-height: 20px;
     text-align: center;
     color: #333333;
-    margin-bottom: 41px;
+    margin-bottom: 21px;
 }
 .recent_projects img {
+    display: block;
+    width: 100%;
+}
+.text{
+    max-width: 300px;
+    background-color: #ffffff;
     margin-left: 20px;
-    margin-bottom: 38px;
+    margin-bottom: 20px;
 }
