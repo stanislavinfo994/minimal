@@ -25,6 +25,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 #navbar{
     list-style: none;
@@ -55,6 +56,7 @@ footer{
 .m_width{
     max-width: 564px;
     margin: auto;
+    text-align: center;
 }
 .d_none{
     display: none;
@@ -285,6 +287,8 @@ footer p{
 .recent_projects{
     display: flex;
     background-color: #F5F5F5;
+    background-size: cover;
+    min-height: 1469px;
 }
 .recent_projects h2:after {
     content: "";
@@ -331,13 +335,15 @@ footer p{
     color: #333333;
     margin-bottom: 21px;
 }
-.recent_projects img {
-    display: block;
-    width: 100%;
-}
-.text {
+
+.recent_projects article {
     max-width: 300px;
     background-color: #ffffff;
     margin-left: 20px;
     margin-bottom: 20px;
 }
+.recent_projects img {
+    display: block;
+    width: 100%;
+}
+
