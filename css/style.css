@@ -281,7 +281,6 @@ footer p{
     margin-bottom: 20px;
 }
 .recent_projects{
-    display: flex;
     background-color: #F5F5F5;
     background-size: cover;
     min-height: 1469px;
