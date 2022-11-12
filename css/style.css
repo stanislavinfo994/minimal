@@ -339,3 +339,16 @@ footer p{
     display: block;
     width: 100%;
 }
+.owl-stage {
+    display: flex;
+    align-items: center;
+}
+.owl-item {
+    text-align: center;
+}
+.owl-nav .owl-prev{
+    position: fixed;
+    left: 0;
+    top: 30%;
+
+}
