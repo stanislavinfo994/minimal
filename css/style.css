@@ -104,10 +104,6 @@ button{
 footer form input{
     outline: none;
 }
-footer form textarea:focus{
-    outline: none;
-    background-color: aqua;
-}
 footer form .m_width:first-of-type input, footer form .m_width:nth-child(3) input{
     background: rgba(255, 255, 255, 0.18);
 }
@@ -352,6 +348,198 @@ footer p{
     top: 30%;
 
 }
-
-
-
+.our_team {
+    background-color: #FFFFFF;
+    padding: 49px 32px 99px;
+}
+.our_team h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #333333;
+}
+.our_team h2:after{
+    content: "";
+    display: block;
+    width: 80px;
+    height: 2px;
+    background-color: rgba(0, 0, 0, 0.09);
+    margin: auto;
+    margin-top: 28px;
+    margin-bottom: 43px;
+}
+.teammates img{
+    max-width: 220px;
+    margin: auto;
+    margin-bottom: 20px;
+    display: block;
+    width: 100%;
+}
+.teammates h4{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #333333;
+}
+.teammates p{
+    font-family: 'Vollkorn';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #333333;
+}
+.social_accounts{
+    width: 220px;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.social_accounts li{
+    margin-left: 6px;
+}
+.quotes{
+    background-color: #F5F5F5;
+    padding: 69px 32px 98px;
+}
+.quotes .container{
+    text-align: center;
+}
+.quotes p{
+    font-family: 'Vollkorn';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 33px;
+    text-align: center;
+    color: #333333;
+}
+.quotes h3{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ABABAB;
+}
+.text {
+    text-align: center;
+    margin: auto;
+    margin-top: 65px;
+    max-width: 338px;
+}
+.text img{
+    margin-bottom: 10px;
+}
+.text_between:after{
+    content: "";
+    width: 2px;
+    height: 215px;
+    background-color: rgba(0, 0, 0, 0.04);
+    margin-top: 67px;
+    margin-right: 52px;
+    margin-left: 70px;
+    display: block;
+}
+.get_in_touch{
+    background-image: url("../images/get_in_touch_background.jpg");
+    background-color: #7EC4BD;
+    padding: 79px 32px 75px;
+}
+.get_in_touch .container h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #333333;
+}
+.get_in_touch .container h2:after{
+    content: "";
+    display: block;
+    width: 80px;
+    height: 2px;
+    background-color: rgba(0, 0, 0, 0.09);
+    margin: auto;
+    margin-top: 28px;
+    margin-bottom: 43px;
+}
+.contact_information {
+    text-align: center;
+}
+.contact_information img {
+    margin-bottom: 26px;
+}
+.contact_information h3{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #333333;
+}
+.contact_information p{
+    font-family: 'Vollkorn';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    text-align: center;
+    color: #212121;
+}
+.contact_form {
+    margin-top: 22px;
+}
+.social_accounts{
+    list-style: none;
+    width: 95px;
+    margin: auto;
+}
+.social_accounts li{
+    font-family: 'Vollkorn';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    color: #212121;
+    margin-bottom: 11px;
+}
+.social_accounts li:first-of-type:before{
+    content: "";
+    display: inline-block;
+    background-image: url("../images/facebook_pic.png");
+    height: 14px;
+    width: 14px;
+    margin-right: 9px;
+}
+.social_accounts li:nth-child(2):before{
+    content: "";
+    display: inline-block;
+    background-image: url("../images/twitter_pic.png");
+    height: 14px;
+    width: 14px;
+    margin-right: 9px;
+}
+.social_accounts li:last-of-type:before{
+    content: "";
+    display: inline-block;
+    background-image: url("../images/linkedin_pic.png");
+    height: 14px;
+    width: 14px;
+    margin-right: 9px;
+}
